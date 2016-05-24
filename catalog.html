@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:500,400,100,300,700&subset=latin,cyrillic-ext,cyrillic,latin-ext' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="styles/normalize.css">
+	<link rel="stylesheet" type="text/css" href="styles/nerds.css">
+	<title>Каталог Nёrds</title>
+</head>
+<body>
+	<header class="main-header">
+		<div class="container clearfix">
+			<div class="top-header clearfix">
+				<figure class="logo">
+					<img src="img/header-logo.png" width="139px" height="56px" alt="Логотип">
+				</figure>
+				<nav class="main-navigation">
+					<ul>
+						<li>
+							<a class="active" href="index.html">Студия</a>
+						</li>
+						<li>
+							<a href="#">Клиенты</a>
+						</li>
+						<li>
+							<a href="catalog.html">Магазин</a>
+						</li>
+						<li>
+							<a href="#">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="basket">
+					<a class="active" href="#"><i class="icon-basket"></i>Корзина</a>
+				</div>
+			</div>	
+			<div class="catalog-page-title">
+				<h1>Добро пожаловать в магазин готовых макетов</h1>
+			</div>		
+		</div>
+	</header>
+	<main class="main-content">
+		<div class="container clearfix">
+			<form class="catalog-filter">
+				<div class="price">
+					<h2 class="catalog-filter-title">Стоимость:</h2>
+					<div class="range-controls">
+						<div class="scale">
+							<div class="bar"></div>
+						</div>
+						<div class="toggle min-toggle"></div>
+						<div class="toggle max-toggle"></div>
+					</div>
+					<div class="price-controls">
+						<label class="left">от<input class="min-price" name="min-price" type="text" value="0"></label>
+						<label class="right">до<input class="max-price" name="max-price" type="text" value="15000"></label>
+					</div>
+				</div>
+				<div class="grid">
+					<h2 class="catalog-filter-title">Сетка:</h2>
+					<input id="adaptive" type="radio" name ="#"><label for="adaptive">Адаптивная</label></br>
+					<input id="fixed" type="radio" name ="#"><label for="fixed">Фиксированная</label></br>
+					<input id="stretch" type="radio" name ="#"><label for="stretch">Резиновая</label>
+				</div>
+				<div class="feature">
+					<h2 class="catalog-filter-title">Особенности:</h2>
+					<input id="test1" type="checkbox" name="test"><label for="test1">Слайдер</label></br>
+					<input id="test2" type="checkbox" name="test"><label for="test2">Блок преимуществ</label></br>
+					<input id="test3" type="checkbox" name="test"><label for="test3">Новости</label></br>
+					<input id="test4" type="checkbox" name="test"><label for="test4">Галерея</label></br>
+					<input id="test5" type="checkbox" name="test"><label for="test5">Корзина</label>
+				</div>
+			</form>
+			<div class="catalog-content">
+				<div class="sort">
+					<h2 class="sort-title">Сортировать:</h2>
+					<a class="sort-option" href=""><span>по цене</span></a>
+					<a class="sort-option option-act" href=""><span>по типу</span></a>
+					<a class="sort-option" href=""><span>по функционалу</span></a>
+					<a class="sort-option option-act" href=""><span>▲▼</span></a>
+				</div>
+				<div class="products">
+					<div class="product-example">
+						<div class="top"><i></i><i></i><i></i></div>
+						<img src="img/product-example-1.png" width="240" height="240">
+						<div class="popup">
+							<h2>SUNSET</h2>
+							<p>Интернет-магазин с личным кабинетов</p>
+							<a href="" class="red">10 000р.</a>
+						</div>
+					</div>
+					<div class="product-example">
+						<div class="top"><i></i><i></i><i></i></div>
+						<img src="img/product-example-2.png" width="240" height="240">
+						<div class="popup">
+							<h2>SUNSET</h2>
+							<p>Интернет-магазин с личным кабинетов</p>
+							<a href="" class="red">10 000р.</a>
+						</div>
+					</div>
+					<div class="product-example">
+						<div class="top"><i></i><i></i><i></i></div>
+						<img src="img/product-example-3.png" width="240" height="240">
+						<div class="popup">
+							<h2>SUNSET</h2>
+							<p>Интернет-магазин с личным кабинетов</p>
+							<a href="" class="red">10 000р.</a>
+						</div>
+					</div>
+					<div class="product-example">
+						<div class="top"><i></i><i></i><i></i></div>
+						<img src="img/product-example-4.png" width="240" height="240">
+						<div class="popup">
+							<h2>SUNSET</h2>
+							<p>Интернет-магазин с личным кабинетов</p>
+							<a href="" class="red">10 000р.</a>
+						</div>
+					</div>
+					<div class="product-example">
+						<div class="top"><i></i><i></i><i></i></div>
+						<img src="img/product-example-5.png" width="240" height="240">
+						<div class="popup">
+							<h2>SUNSET</h2>
+							<p>Интернет-магазин с личным кабинетов</p>
+							<a href="" class="red">10 000р.</a>
+						</div>
+					</div>
+					<div class="product-example">
+						<div class="top"><i></i><i></i><i></i></div>
+						<img src="img/product-example-6.png" width="240" height="240">
+						<div class="popup">
+							<h2>SUNSET</h2>
+							<p>Интернет-магазин с личным кабинетов</p>
+							<a href="" class="red">10 000р.</a>
+						</div>
+					</div>
+				</div>
+				<div class="page-list">
+					<a href="" class="page-number page-act">1</a>
+					<a href="" class="page-number">2</a>
+					<a href="" class="page-number">3</a>
+					<a href="" class="page-number page-act">Следующая</a>
+				</div>
+			</div>
+		</div>
+	<div class="map" id="yandex-map">
+			<div class="container">
+				<div class="contact-us">
+					<div class="contact-us-title"><span class="font-bold">Nёrds</span> design studio</div>
+					<p>
+						350000, Краснодар,<br>
+						ул. Головатого 100
+					</p>
+					<p>тел. +7 (861) 275 75 75</p>
+					<button class="write-us red">Напишите нам</button>
+				</div>	
+			</div>
+			<div class="map-pointer">
+			</div>
+		</div>
+	</main>
+	<footer class="main-footer">
+		<div class="container clearfix">
+			<div class="footer-social">
+				<a href="#" class="social-btn social-btn-vk"><i class="icon-vk"></i></a>
+				<a href="#" class="social-btn social-btn-fb"><i class="icon-facebook"></i></a>
+				<a href="#" class="social-btn social-btn-inst"><i class="icon-instagramm"></i></a>
+			</div>
+			<div class="lets-friends">
+				<div class="lets-friends-title">Давайте дружить, это выгодно!</div>
+				<p>Cкидка 10% для друзей из социальных сетей.</p>
+			</div>
+		</div>
+	</footer>
+	<div class="modal-content">
+		<form class="write-us-modal clearfix">
+				<div class="inline-input">
+					<label>Ваше имя:</label><br>
+					<input type="text" class="name" name="myname" placeholder="представьтесь, пожалуйста" required>
+				</div>
+			
+				<div class="inline-input">
+					<label>Ваш e-mail:</label><br>
+					<input type="text" class="email" name="myemail" placeholder="для отправки ответа" required>
+				</div>	
+			<label>Текст письма:</label><br>
+			<textarea class="letter" name="textletter" placeholder="в свободной форме" required></textarea>
+
+			<div class="inline-input">
+				<button type="button" class="red send">Отправить</button>
+			</div>
+			<div class="inline-input">
+				<button type="button" class="cancel">Отмена</button>
+			</div>	
+		</form>
+	</div>
+	<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=imE7gQ8bNcUdwUt6yvDU8QRAsI_d3Rl8&width=100%&height=415&lang=ru_RU&sourceType=constructor&id=yandex-map">
+	</script>
+	<script type="text/javascript" charset="utf-8" src="js/scripts.js"></script>
+</body>
+</html>
